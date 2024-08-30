@@ -9,6 +9,23 @@ body{
     background: rgb(238, 174,202);
     background: radial-gradient(circle, rgba(283,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+
+.rr-box{
+    color: white;
+    background-color: #b7b8b86c;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 25px; 
+    width: 440px;
+    padding: 10px;
+    margin: 150px auto;
+}
+
+.rr-box .rr-info .lets-get-started, div{
+    text-align: center;
+}
+
 .container{
     color: white;
     background-color: #b7b8b86c;
