@@ -1,5 +1,5 @@
 h1{
-    color: blue;
+    color: rgba(10, 94, 133, 0.74);
     text-align: center;
     margin: 70px;
     font-size: 50px;
@@ -15,6 +15,8 @@ body{
     margin: 150px auto;
     padding: 20px;
     width: 300px;
+    border-color: aliceblue;
+    color: white;
 }
 
 
@@ -50,4 +52,8 @@ input .container{
 
 button{
     background-color: rgb(149, 233, 23);
+}
+
+span{
+    font-size:large;
 }
