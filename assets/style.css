@@ -1,22 +1,41 @@
 h1{
-    color: rgba(10, 94, 133, 0.74);
+    color: rgba(8, 165, 238, 0.877);
     text-align: center;
     margin: 70px;
     font-size: 50px;
 }
 
+h2{
+    font-size: xx-large;
+}
+
+h3{
+    color: #ee0dc89a;
+    text-align: center center;
+    font-size: x-large;
+}
+    
+#output1{
+    font-size: xxx-large;
+    color: #ee0dc89a;
+}
 body{
     background: rgb(238, 174,202);
     background: radial-gradient(circle, rgba(283,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
-.login{
-    border-style: solid;
-    margin: 150px auto;
+.create-username{
+    border-style: none;
+    margin: 75px auto;
     padding: 20px;
-    width: 300px;
+    width: 390px;
     border-color: aliceblue;
     color: white;
+}
+#btn1{
+    background-color: #ee0dc89a;
+    color: white;
+    border: none;
 }
 
 
@@ -28,13 +47,14 @@ body{
     border-width: 3px;
     border-color: white;
     border-radius: 25px; 
-    width: 440px;
+    width: 500px;
     padding: 10px;
-    margin: 150px auto;
+    margin: 75px auto;
 }
 
 .rr-box .rr-info .rr-title .lets-get-started, div{ /*, div*/
     text-align: center;
+    font-size: large;
 }
 
 input .container{
@@ -52,8 +72,14 @@ input .container{
 
 button{
     background-color: rgb(149, 233, 23);
+    border: none;
 }
 
 span{
     font-size:large;
+}
+
+#output{
+    background-color: hsla(233, 11%, 54%, 0.247);
+    margin: 20px;
 }

@@ -6,37 +6,28 @@
     <meta name="description" content="general knowledge quiz">
     <meta name="keywords" content="general knowledge quiz, quiz, fun games">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    <title>General Knowledge Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 <body>
 
     <h1>General Knowledge Quiz <i class="fa fa-globe" aria-hidden="true"></i></h1>
+    <article class="create-username">
+      <h3>Create a Username Here!</h3>
 
-   <div class="login">
-     <form>
-      <h2>Login Form</h2>
-      <p>Please create a login</p>
-       <div class="login-details">
-        <label for="">Username:</label>
-        <input type="text" class="username" required>
-      </div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter Username" maxlength="12" required>
 
-       <div class="login-details">
-        <label for="">Password:</label>
-        <input type="password" class="password" required>
-       </div>
-       <input type="submit" class="login-btn" value="Login"
-     </form>
-   </div>
-
-
+      <input type="button" id="btn1" value="Create">
+      <p class="output" id="output1"></p>
+  </article>
+   
     <div class="rr-box">
         <h2 class="rr-title">Rules and Rundown</h2><hr>
           <div>
-            <div class="rr-info">1. There is a total of 6 questions.</div>
-            <div class="rr-info">2. Each question will have 4 multiple choice option answers.</div>
-            <div class="rr-info">3. When you have finshed the quiz, your score will be displayed.</div>
+            <div class="rr-info">1. There is a total of 6 questions.</div><br>
+            <div class="rr-info">2. Each question will have 4 multiple choice option answers.</div><br>
+            <div class="rr-info">3. When you have finshed the quiz, your score will be displayed.</div><br>
             <hr>
             <div class="rr-info" class="lets-get-started"> Lets get started!</div>
          </div><hr>
