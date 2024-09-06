@@ -14,3 +14,5 @@ Colors- The color scheme I used (blues and pinks) was to add a playful and relax
 Radio Buttons- Radio buttons are a good and easy way to add interactivity to a webpage only letting user select one answer before submitting. 
 
 Submit button- I've already menioned why I styled the submit button green, but with the button as a whole its initial function is to get a score once answering the questions
+
+Favicon- The use of favicons is a fun way to add little images that can also be descriptive. For eample on my first question about when the movie Titanic was released i used a boat icon. 
